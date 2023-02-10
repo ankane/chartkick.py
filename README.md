@@ -1,6 +1,6 @@
 # Chartkick.py
 
-Create beautiful JavaScript charts with one line of Python. No more fighting with mapping libraries!
+Create beautiful JavaScript charts with one line of Python. No more fighting with charting libraries!
 
 [See it in action](https://chartkick.com/python)
 
