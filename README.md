@@ -400,7 +400,7 @@ A big thanks to [Mher Movsisyan](https://github.com/mher) for creating the [init
 
 ### 1.0
 
-For Django, change `chartkick` to `chartkick.django` under `INSTALLED_APPS` in `settings.py` and remove `STATICFILES_DIRS`. Then update charts to use classes.
+For Django, change `chartkick` to `chartkick.django` under `INSTALLED_APPS` in `settings.py` and remove `chartkick.js()` from `STATICFILES_DIRS`. Then update charts to use classes.
 
 ```python
 from chartkick.django import LineChart
