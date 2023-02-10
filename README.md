@@ -394,7 +394,7 @@ LineChart(data, adapter='google')  # or highcharts or chartjs
 
 ## Credits
 
-Thanks to [Mher Movsisyan](https://github.com/mher) for creating the [initial version](https://github.com/mher/chartkick.py).
+A big thanks to [Mher Movsisyan](https://github.com/mher) for creating the [initial version](https://github.com/mher/chartkick.py).
 
 ## Upgrading
 
