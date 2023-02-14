@@ -15,7 +15,8 @@ setup(
     license='MIT',
     packages=[
         'chartkick',
-        'chartkick.django'
+        'chartkick.django',
+        'chartkick.flask'
     ],
     include_package_data=True,
     python_requires='>=3.7',

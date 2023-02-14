@@ -19,6 +19,7 @@ pip install chartkick
 Then follow the instructions for your web framework:
 
 - [Django](#django)
+- [Flask](#flask) [unreleased]
 
 This sets up Chartkick with [Chart.js](https://www.chartjs.org/). For other charting libraries, see [these instructions](#additional-charting-libraries).
 
@@ -50,6 +51,39 @@ from chartkick.django import PieChart
 def index(request):
     chart = PieChart({'Blueberry': 44, 'Strawberry': 23})
     return render(request, 'home/index.html', {'chart': chart})
+```
+
+And add it to the template
+
+```django
+{{ chart }}
+```
+
+### Flask
+
+Register the blueprint
+
+```python
+from chartkick.flask import chartkick
+
+app.register_blueprint(chartkick)
+```
+
+Load the JavaScript
+
+```jinja
+<script src="{{ url_for('chartkick.static', filename='Chart.bundle.js') }}"></script>
+<script src="{{ url_for('chartkick.static', filename='chartkick.js') }}"></script>
+```
+
+Create a chart in a route
+
+```python
+from chartkick.flask import PieChart
+
+def index():
+    chart = PieChart({'Blueberry': 44, 'Strawberry': 23})
+    return render_template('home/index.html', chart=chart)
 ```
 
 And add it to the template

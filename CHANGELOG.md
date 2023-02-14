@@ -1,3 +1,7 @@
+## 1.0.1 (unreleased)
+
+- Added support for Flask
+
 ## 1.0.0 (2023-02-09)
 
 - Changed to classes for charts
