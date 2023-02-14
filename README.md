@@ -412,7 +412,7 @@ Flask is not supported yet.
 
 ## History
 
-View the [changelog](CHANGELOG.md)
+View the [changelog](https://github.com/ankane/chartkick.py/blob/master/CHANGELOG.md)
 
 ## Contributing
 
