@@ -400,6 +400,8 @@ LineChart(data, title='Awesome chart')
 
 Load the JavaScript
 
+Django
+
 ```django
 {% load static %}
 
@@ -407,15 +409,31 @@ Load the JavaScript
 <script src="{% static 'chartkick/chartkick.js' %}"></script>
 ```
 
+Flask
+
+```jinja
+<script src="https://www.gstatic.com/charts/loader.js"></script>
+<script src="{{ url_for('chartkick.static', filename='chartkick.js') }}"></script>
+```
+
 ### Highcharts
 
 Download [highcharts.js](https://code.highcharts.com/highcharts.js) and load the JavaScript
+
+Django
 
 ```django
 {% load static %}
 
 <script src="{% static 'highcharts.js' %}"></script>
 <script src="{% static 'chartkick/chartkick.js' %}"></script>
+```
+
+Flask
+
+```jinja
+<script src="{{ url_for('static', filename='highcharts.js') }}"></script>
+<script src="{{ url_for('chartkick.static', filename='chartkick.js') }}"></script>
 ```
 
 ### Multiple Libraries
