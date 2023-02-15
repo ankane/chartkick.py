@@ -64,9 +64,9 @@ And add it to the template
 Register the blueprint
 
 ```python
-from chartkick.flask import chartkick
+from chartkick.flask import chartkick_blueprint
 
-app.register_blueprint(chartkick)
+app.register_blueprint(chartkick_blueprint)
 ```
 
 Load the JavaScript

@@ -6,7 +6,7 @@ import re
 import secrets
 
 static_folder = os.path.abspath(__file__ + '/../../django/static/chartkick')
-chartkick = Blueprint('chartkick', __name__, static_folder=static_folder, static_url_path='/static/chartkick')
+chartkick_blueprint = Blueprint('chartkick', __name__, static_folder=static_folder, static_url_path='/static/chartkick')
 
 
 class Chart:
