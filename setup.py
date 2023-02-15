@@ -5,7 +5,7 @@ with open('README.md', 'r', encoding='utf-8') as fh:
 
 setup(
     name='chartkick',
-    version='1.0.0',
+    version='1.0.1',
     description='Create beautiful JavaScript charts with one line of Python',
     long_description=long_description,
     long_description_content_type='text/markdown',

@@ -19,7 +19,7 @@ pip install chartkick
 Then follow the instructions for your web framework:
 
 - [Django](#django)
-- [Flask](#flask) [unreleased]
+- [Flask](#flask)
 
 This sets up Chartkick with [Chart.js](https://www.chartjs.org/). For other charting libraries, see [these instructions](#additional-charting-libraries).
 
@@ -460,7 +460,13 @@ from chartkick.django import LineChart
 LineChart({'2023-01-01': 11, '2023-01-02': 6})
 ```
 
-Flask is not supported yet.
+For Flask, switch to the [included blueprint](#flask) (available in 1.0.1). Then update charts to use classes.
+
+```python
+from chartkick.flask import LineChart
+
+LineChart({'2023-01-01': 11, '2023-01-02': 6})
+```
 
 ## History
 
