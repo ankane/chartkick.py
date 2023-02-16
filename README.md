@@ -88,7 +88,7 @@ def index():
 
 And add it to the template
 
-```django
+```jinja
 {{ chart }}
 ```
 
