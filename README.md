@@ -4,7 +4,7 @@ Create beautiful JavaScript charts with one line of Python. No more fighting wit
 
 [See it in action](https://chartkick.com/python)
 
-[![Build Status](https://github.com/ankane/chartkick.py/workflows/build/badge.svg?branch=master)](https://github.com/ankane/chartkick.py/actions)
+[![Build Status](https://github.com/ankane/chartkick.py/actions/workflows/build.yml/badge.svg)](https://github.com/ankane/chartkick.py/actions)
 
 ## Quick Start
 
