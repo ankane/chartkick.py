@@ -1,5 +1,4 @@
 from django.utils.html import format_html, json_script, mark_safe
-import os
 import re
 import secrets
 
