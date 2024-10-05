@@ -1,4 +1,4 @@
-from chartkick.flask import *
+from chartkick.flask import LineChart, PieChart, ColumnChart, BarChart, AreaChart, ScatterChart, GeoChart, Timeline
 import pytest
 
 

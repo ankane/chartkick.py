@@ -1,4 +1,4 @@
-from chartkick.django import *
+from chartkick.django import LineChart, PieChart, ColumnChart, BarChart, AreaChart, ScatterChart, GeoChart, Timeline
 import pytest
 
 
