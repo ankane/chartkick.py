@@ -95,7 +95,7 @@ And add it to the template
 Line chart
 
 ```python
-LineChart({'2023-01-01': 11, '2023-01-02': 6})
+LineChart({'2025-01-01': 11, '2025-01-02': 6})
 ```
 
 Pie chart
@@ -119,7 +119,7 @@ BarChart({'Work': 32, 'Play': 1492})
 Area chart
 
 ```python
-AreaChart({'2021-01-01': 11, '2021-01-02': 6})
+AreaChart({'2025-01-01': 11, '2025-01-02': 6})
 ```
 
 Scatter chart
@@ -144,8 +144,8 @@ Multiple series
 
 ```python
 data = [
-    {'name': 'Workout', 'data': {'2021-01-01': 3, '2021-01-02': 4}},
-    {'name': 'Call parents', 'data': {'2021-01-01': 5, '2021-01-02': 3}}
+    {'name': 'Workout', 'data': {'2025-01-01': 3, '2025-01-02': 4}},
+    {'name': 'Call parents', 'data': {'2025-01-01': 5, '2025-01-02': 3}}
 ]
 LineChart(data)
 ```
@@ -157,13 +157,13 @@ Data can be a dictionary, list, or URL.
 #### Dictionary
 
 ```python
-LineChart({'2023-01-01': 2, '2023-01-02': 3})
+LineChart({'2025-01-01': 2, '2025-01-02': 3})
 ```
 
 #### List
 
 ```python
-LineChart([['2023-01-01', 2], ['2023-01-02', 3]])
+LineChart([['2025-01-01', 2], ['2025-01-02', 3]])
 ```
 
 #### URL
@@ -193,7 +193,7 @@ LineChart(data, min=1000, max=5000)
 Min and max for x-axis - *Chart.js*
 
 ```python
-LineChart(data, xmin='2021-01-01', xmax='2022-01-01')
+LineChart(data, xmin='2025-01-01', xmax='2025-02-01')
 ```
 
 Colors
@@ -455,7 +455,7 @@ For Django, change `chartkick` to `chartkick.django` under `INSTALLED_APPS` in `
 ```python
 from chartkick.django import LineChart
 
-LineChart({'2023-01-01': 11, '2023-01-02': 6})
+LineChart({'2025-01-01': 11, '2025-01-02': 6})
 ```
 
 For Flask, switch to the [included blueprint](#flask) (available in 1.0.1). Then update charts to use classes.
@@ -463,7 +463,7 @@ For Flask, switch to the [included blueprint](#flask) (available in 1.0.1). Then
 ```python
 from chartkick.flask import LineChart
 
-LineChart({'2023-01-01': 11, '2023-01-02': 6})
+LineChart({'2025-01-01': 11, '2025-01-02': 6})
 ```
 
 ## History
