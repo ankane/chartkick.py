@@ -1,3 +1,7 @@
+## 1.1.0 (unreleased)
+
+- Dropped support for Python < 3.9
+
 ## 1.0.1 (2023-02-15)
 
 - Added support for Flask
