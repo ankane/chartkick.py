@@ -18,3 +18,10 @@ Homepage = "https://github.com/ankane/chartkick.py"
 
 [tool.setuptools.package-data]
 chartkick = ["licenses/*", "django/static/chartkick/*"]
+
+[dependency-groups]
+dev = [
+    "Django",
+    "Flask",
+    "pytest"
+]

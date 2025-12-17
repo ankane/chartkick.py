@@ -464,6 +464,6 @@ To get started with development:
 ```sh
 git clone https://github.com/ankane/chartkick.py.git
 cd chartkick.py
-pip install -r requirements.txt
+pip install --group dev
 pytest
 ```
