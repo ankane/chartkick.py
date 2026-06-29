@@ -95,7 +95,7 @@ And add it to the template
 Line chart
 
 ```python
-LineChart({'2025-01-01': 11, '2025-01-02': 6})
+LineChart({'2026-01-01': 11, '2026-01-02': 6})
 ```
 
 Pie chart
@@ -119,7 +119,7 @@ BarChart({'Work': 32, 'Play': 1492})
 Area chart
 
 ```python
-AreaChart({'2025-01-01': 11, '2025-01-02': 6})
+AreaChart({'2026-01-01': 11, '2026-01-02': 6})
 ```
 
 Scatter chart
@@ -144,8 +144,8 @@ Multiple series
 
 ```python
 data = [
-    {'name': 'Workout', 'data': {'2025-01-01': 3, '2025-01-02': 4}},
-    {'name': 'Call parents', 'data': {'2025-01-01': 5, '2025-01-02': 3}}
+    {'name': 'Workout', 'data': {'2026-01-01': 3, '2026-01-02': 4}},
+    {'name': 'Call parents', 'data': {'2026-01-01': 5, '2026-01-02': 3}}
 ]
 LineChart(data)
 ```
@@ -157,13 +157,13 @@ Data can be a dictionary, list, or URL.
 #### Dictionary
 
 ```python
-LineChart({'2025-01-01': 2, '2025-01-02': 3})
+LineChart({'2026-01-01': 2, '2026-01-02': 3})
 ```
 
 #### List
 
 ```python
-LineChart([['2025-01-01', 2], ['2025-01-02', 3]])
+LineChart([['2026-01-01', 2], ['2026-01-02', 3]])
 ```
 
 #### URL
@@ -193,7 +193,7 @@ LineChart(data, min=1000, max=5000)
 Min and max for x-axis - *Chart.js*
 
 ```python
-LineChart(data, xmin='2025-01-01', xmax='2025-02-01')
+LineChart(data, xmin='2026-01-01', xmax='2026-02-01')
 ```
 
 Colors
