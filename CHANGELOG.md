@@ -1,3 +1,7 @@
+## 1.2.0 (unreleased)
+
+- Dropped support for Python < 3.11
+
 ## 1.1.0 (2025-05-26)
 
 - Dropped support for Python < 3.9
