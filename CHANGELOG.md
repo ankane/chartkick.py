@@ -1,4 +1,4 @@
-## 1.2.0 (unreleased)
+## 1.2.0 (2026-10-14)
 
 - Dropped support for Python < 3.11
 
